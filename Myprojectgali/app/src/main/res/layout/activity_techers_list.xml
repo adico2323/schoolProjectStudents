@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4CDFF"
+    tools:context=".techersList">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teachers List"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:fontFamily="casual"
+        android:layout_gravity="center"  ></TextView>
+    <ListView
+        android:id="@+id/techer_lst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B4CDFF"
+        android:layout_marginTop="0dp">
+    </ListView>
+
+</LinearLayout>
