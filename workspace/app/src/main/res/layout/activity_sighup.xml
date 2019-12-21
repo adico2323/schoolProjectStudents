@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#B4CDFF">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="286dp"
+        android:layout_height="70dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Sigh Up - Students"
+
+        android:textColor="#000"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <EditText
+        android:id="@+id/et_UserName_sighup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:hint="user name"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <EditText
+        android:id="@+id/et_Pass_sighup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:hint="passward"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <Button
+        android:id="@+id/bt_sighup_student"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:fontFamily="casual"
+        android:text="Sigh Up"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="370dp" />
+</LinearLayout>

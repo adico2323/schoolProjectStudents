@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#B4CDFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="286dp"
+        android:layout_height="70dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Individual lessons"
+
+        android:textColor="#000"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <EditText
+        android:id="@+id/et_UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:hint="user name"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <EditText
+        android:id="@+id/et_Pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:hint="passward"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:fontFamily="casual"
+        android:text="login"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="219dp"
+        android:layout_height="154dp"
+        app:srcCompat="@drawable/blackboard"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Dont have an account?"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <Button
+        android:id="@+id/bt_signup"
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:fontFamily="casual"
+        android:text="SignUp"
+        android:textSize="13dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+</LinearLayout>
