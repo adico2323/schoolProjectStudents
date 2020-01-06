@@ -40,7 +40,8 @@ public class TeacherListActivity extends AppCompatActivity {
 
         if(num==R.id.act_AddNewTeacher)
         {
-           //add new teacher, como?
+            Intent i = new Intent(this,AddNewTeacher.class);
+            startActivity(i);
         }
 
 

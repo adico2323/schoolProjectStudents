@@ -20,24 +20,26 @@
         android:textSize="40dp"
         tools:ignore="MissingConstraints" />
 
+
+
     <TextView
+        android:id="@+id/student_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="130dp"
         android:fontFamily="casual"
         android:gravity="left"
-        android:text="name:"
         android:textColor="#000"
         android:textSize="40dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:layout_width="112dp"
-        android:layout_height="50dp"
+        android:id="@+id/student_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:fontFamily="casual"
         android:gravity="left"
-        android:text="pass:"
         android:textColor="#000"
         android:textSize="40dp"
         tools:ignore="MissingConstraints" />

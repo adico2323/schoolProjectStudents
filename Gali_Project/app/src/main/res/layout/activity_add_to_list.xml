@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="top"
+    android:background="#B4CDFF"
+    tools:context=".AddNewTeacher">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Add New Teacher"
+        android:textColor="#000"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <EditText
+        android:id="@+id/add_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:hint="add teacher here"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/add_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:hint="add subject here"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/bt_add_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:background="#3F51B5"
+        android:textColor="#000"
+        android:text="ADD"
+        android:textSize="40dp"/>
+
+</LinearLayout>

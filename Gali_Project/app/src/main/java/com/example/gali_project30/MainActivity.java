@@ -2,7 +2,9 @@ package com.example.gali_project30;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -55,6 +57,11 @@ public class MainActivity extends AppCompatActivity {
 
                 if(isExist) {
                     Intent myIntent = new Intent(getBaseContext(), TeacherListActivity.class);
+                    SharedPreferences settings = getApplicationContext().getSharedPreferences("userAccount",0);
+                    SharedPreferences.Editor editor = settings.edit();
+                    editor.putString("name", name);
+                    editor.apply();
+
                     startActivity(myIntent);
                 } else {
                     Intent myIntent = new Intent(getBaseContext(), SighUpActivity.class);
